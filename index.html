@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+	<link rel="stylesheet" href="styles.css">
+	<title>Page Title</title>
 </head>
-<body>
+	<body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-  <button type="button">Click Me!</button>
+	<br>
+	<br>
+	<br>
+	<br>
 
-</body>
+	<h1>Who's pissin' on me shoes?</h1>
+	<p>Join Connor on an adventure of self discovery while you figure out who's been pissing on his shoes!</p>
+	<p>
+		<audio id="connor" src="https://raw.githubusercontent.com/myAmericanShoes/myAmericanShoes.github.io/master/audio/connor.mp3" preload="auto"></audio>
+
+		<audio id="josh" src="https://raw.githubusercontent.com/myAmericanShoes/myAmericanShoes.github.io/master/audio/shoes.mp3" preload="auto"></audio>
+
+		<audio id="sascha" src="https://raw.githubusercontent.com/myAmericanShoes/myAmericanShoes.github.io/master/audio/sascha.mp3" preload="auto"></audio>
+
+		<audio id="remi" src="https://raw.githubusercontent.com/myAmericanShoes/myAmericanShoes.github.io/master/audio/remi.mp3" preload="auto"></audio>
+
+		<audio id="marion" src="https://raw.githubusercontent.com/myAmericanShoes/myAmericanShoes.github.io/master/audio/marion.mp3" preload="auto"></audio>
+
+		<audio id="keith" src="https://raw.githubusercontent.com/myAmericanShoes/myAmericanShoes.github.io/master/audio/keithshoes.mp3" preload="auto"></audio>
+
+		<audio id="juliette" src="https://raw.githubusercontent.com/myAmericanShoes/myAmericanShoes.github.io/master/audio/juliette.mp3" preload="auto"></audio>
+
+		<audio id="alex" src="https://raw.githubusercontent.com/myAmericanShoes/myAmericanShoes.github.io/master/audio/alex.mp3" preload="auto"></audio>
+
+		<audio id="aditia" src="https://raw.githubusercontent.com/myAmericanShoes/myAmericanShoes.github.io/master/audio/aditia.mp3" preload="auto"></audio>
+
+		<button onclick="
+		// Math.floor(Math.random() * (max - min + 1)) + min;
+		var sel = Math.floor(Math.random() * (9 - 1 + 1)) + 1;
+		if (sel === 1) document.getElementById('connor').play();
+		else if (sel === 2) document.getElementById('josh').play();
+		else if (sel === 3) document.getElementById('sascha').play();
+		else if (sel === 4) document.getElementById('remi').play();
+		else if (sel === 5) document.getElementById('marion').play();
+		else if (sel === 6) document.getElementById('keith').play();
+		else if (sel === 7) document.getElementById('juliette').play();
+		else if (sel === 8) document.getElementById('alex').play();
+		else if (sel === 9) document.getElementById('aditia').play();
+
+		" type="button" class="button button1">Who's pissin' on me shoes!?</button>
+	</p>
+
+	</body>
 </html>
