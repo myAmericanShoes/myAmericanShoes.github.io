@@ -13,6 +13,11 @@ p {
   text-align: center;
 }
 
+img {
+
+	border-radius: 50%;
+}
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
